@@ -9,7 +9,6 @@
    * Programming exercises 5.1, 5.7, 5.12, 5.13, 6.2, 6.3
    * 
    */
-package lab_3_tzannes;
 import java.util.Scanner;
 
 public class Lab_3_Tzannes {

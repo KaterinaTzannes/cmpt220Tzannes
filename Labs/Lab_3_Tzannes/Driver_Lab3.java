@@ -9,7 +9,6 @@
    * Kattis Different Distances
    * 
    */
-package driver_lab3;
 import java.util.Scanner;
 
 public class Driver_Lab3 {

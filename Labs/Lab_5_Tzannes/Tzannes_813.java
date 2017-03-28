@@ -1,7 +1,7 @@
 // Katerina Tzannes
 // March 28,2017
 // Lab 5
-package tzannes_8.pkg13;
+
 import java.util.Scanner;
 /**
 (Locate the largest element) Write the following method that returns the location

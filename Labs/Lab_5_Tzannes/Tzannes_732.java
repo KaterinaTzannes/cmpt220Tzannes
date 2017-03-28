@@ -1,7 +1,6 @@
 // Katerina Tzannes
 // March 28,2017
 // Lab 5
-package tzannes_732;
 import java.util.Scanner;
 /**
 (Partition of a list) Write the following method that partitions the list using

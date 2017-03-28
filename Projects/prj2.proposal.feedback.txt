@@ -1,0 +1,13 @@
+10 pts
+
+Katherina,
+
+The proposal was not in the required folder. Please organize your repository.
+
+The project idea seems interesting; however: 
+  - it is not clear exactly how the project will interface with Alexa.
+
+
+Peace,
+
+- Dr. Rivas

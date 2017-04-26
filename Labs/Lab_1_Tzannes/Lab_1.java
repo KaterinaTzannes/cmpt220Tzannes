@@ -1,23 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- * Katerina Tzannes
- * Lab_1
- */
-package lab_1;
-import java.util.Scanner;
 /**
- *
- * @author katerinatzannes
+ * file: Lab_1.java
+ * author: Katerina Tzannes
+ * course: CMPT 220
+ * assignment: Lab 1, 
+ * due date: January 24,2017 
+ * version: 2
  */
+
+import java.util.Scanner;
+
 public class Lab_1 {
 
-  /**
-  * @param args the command line arguments
-  */
   public static void main(String[] args) {
-    // TODO code application logic here
       
     // Problem 1.3 tx pg 30
     System.out.println("     J        A       V     V       A   ");
@@ -54,7 +48,5 @@ public class Lab_1 {
     double sumOfDigits = digit1 + digit2 + digit3;    
     System.out.println ("The sum of the digits is " + sumOfDigits);
   
-    
-  }
-    
+  }   
 }

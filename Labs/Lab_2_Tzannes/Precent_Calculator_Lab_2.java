@@ -14,11 +14,8 @@ import java.util.Scanner;
  */
 public class Precent_Calculator_Lab_1 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter the following as a precentage");
         System.out.println("midterm exam: ");
@@ -67,6 +64,5 @@ public class Precent_Calculator_Lab_1 {
         else {
           System.out.println("Please enter a vaild percentage out of 100%");
         }
-    }
-    
+    }  
 }

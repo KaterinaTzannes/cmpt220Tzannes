@@ -1,21 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package precent_calculator_lab_1;
+  /**
+   * file: Precent_Calculater_Lab_1.java
+   * author: Katerina Tzannes
+   * course: CMPT 220
+   * assignment: Lab 1, Precent Calculator
+   * due date: January 24,2017
+   * version: 2
+   */
+
 import java.util.Scanner;
-/**
- *
- * @author katerinatzannes
- */
+
 public class Precent_Calculator_Lab_1 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter the following as a precentage");
         System.out.println("midterm exam: ");
@@ -31,5 +28,4 @@ public class Precent_Calculator_Lab_1 {
         System.out.println("Your final grade is: " + average);
         
     }
-    
 }

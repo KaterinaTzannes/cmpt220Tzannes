@@ -1,6 +1,7 @@
 // Katerina Tzannes
 // March 28,2017
 // Lab 5
+// version 2
 
 import java.util.Scanner;
 /**

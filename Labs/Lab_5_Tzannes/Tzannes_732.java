@@ -1,6 +1,8 @@
 // Katerina Tzannes
 // March 28,2017
 // Lab 5
+// Version 2
+
 import java.util.Scanner;
 /**
 (Partition of a list) Write the following method that partitions the list using
@@ -26,9 +28,7 @@ public class Tzannes_732 {
     for (int i = 0; i < size; i++){
       list[i] = input.nextInt();
     }
-    
     partition(list);
-    
   }
   
   // had a lot of trouble with this part

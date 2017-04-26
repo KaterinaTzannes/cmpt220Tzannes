@@ -4,23 +4,15 @@
  * CMPT 220
  * Lab 2
  * Febuary 7,2016
- * Version 1
+ * Version 2
 */
 
-package lab_2_tzannes;
 import java.util.Scanner;
 
-/**
- * This code answers exercises found in Lab 2
- */
 public class Lab_2_Tzannes {
 
-  /**
-   * @param args the command line arguments
-   */
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    
     /*
     // Ex 3.4 pg. 80 assign 1 to x if y > 0
     // Not required question
@@ -221,8 +213,7 @@ public class Lab_2_Tzannes {
     // and computes the area
     System.out.println("Enter the length from the center to the "
       + "vertex of a pentagon");
-    double radius = input.nextDouble();
-    
+    double radius = input.nextDouble(); 
     double side = 2 * radius * (Math.sin(Math.PI / 5));
     double area = (5 * (Math.pow(side, 2))) / (4 * (Math.tan(Math.PI / 5)));
     
@@ -394,13 +385,12 @@ public class Lab_2_Tzannes {
       char ch = (char)(Math.random() * 26 + 'A');
       builder.append(ch);
     }
+    
     for (int i = 0; i < 4; i++) {
       char nums = (char)(Math.random() * 10 + '0');
       builder.append(nums);
     }
-    System.out.println("Random vehicle plate number: " + builder);
     
-
+    System.out.println("Random vehicle plate number: " + builder);
   }
-  
 }

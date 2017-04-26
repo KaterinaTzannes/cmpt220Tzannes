@@ -4,10 +4,9 @@
    * course: CMPT 220
    * assignment: Lab 3
    * due date: Febuary 21, 2017
-   * version: 1.0
+   * version: 2
    * 
    * Programming exercises 5.1, 5.7, 5.12, 5.13, 6.2, 6.3
-   * 
    */
 import java.util.Scanner;
 
@@ -32,10 +31,10 @@ public class Lab_3_Tzannes {
       System.out.println("Enter an integer, the input ends if it is 0: ");
       data = input.nextInt();
       counter++;
-      
+
       // calculate total
       total += data;
-      
+
       // checks if potive or negative
       if(data > 0){
         positive++;
@@ -68,7 +67,6 @@ public class Lab_3_Tzannes {
     for(year = 0; year < 14; year++){
       // per year
       tuition +=  (tuition * .05);
-      
       //System.out.printf(year + "%.2f", tuition); (lists tuition yearly)
 
       // total 4-year tuition after 10 years
@@ -76,6 +74,7 @@ public class Lab_3_Tzannes {
         totalTuition += tuition;
       }
     }
+
     System.out.printf("4-year tuition in 10 years will be: "
         + "%.2f", totalTuition);
     System.out.println(" ");
@@ -108,11 +107,11 @@ public class Lab_3_Tzannes {
     // ex 6.3 pg 234
     // test if palidrome integer
     System.out.print("Enter an integer: ");
-		int number = input.nextInt();
+    int number = input.nextInt();
 
-		// Report whether the integer is a palindrome.
-		System.out.println(number + (isPalindrome(number) ? " is " : " is not ") +
-			"a palindrome.");
+    // Report whether the integer is a palindrome.
+    System.out.println(number + (isPalindrome(number) ? " is " : " is not ") +
+      "a palindrome.");
   }
   
   // 6.2 continuation method
@@ -129,18 +128,17 @@ public class Lab_3_Tzannes {
   
   // 6.3 continuation method
   // flips intiger entered 
-	public static int reverse(int number) {
-		String reverse = ""; 	// Holds reversed number
-		String n = number + ""; // Convert number to string
-		// Reverse string
-		for (int i = n.length() - 1; i >= 0; i--) {
-			reverse += n.charAt(i);
-		}
-		return Integer.parseInt(reverse); // Return reversed integer
-	}
-  
+  public static int reverse(int number) {
+    String reverse = "";   // Holds reversed number
+    String n = number + ""; // Convert number to string
+    // Reverse string
+    for (int i = n.length() - 1; i >= 0; i--) {
+      reverse += n.charAt(i);
+    }
+    return Integer.parseInt(reverse); // Return reversed integer
+  }
   // checks if palindrome
-	public static boolean isPalindrome(int number) {
-		return number == reverse(number) ? true : false;
-	}
+  public static boolean isPalindrome(int number) {
+    return number == reverse(number) ? true : false;
+  }
 }

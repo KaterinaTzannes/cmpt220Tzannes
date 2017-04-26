@@ -2,33 +2,12 @@
  * Katerina Tzannes
  * Lab_4_Tzannes
  * Due March 1,2017
- * Verision 1.0
+ * Verision 2
  */
 
 import java.util.Arrays;
 import java.util.Scanner;
 public class Lab_4 {
-
-  
-  /*
-  // Convert from Celsius to Fahrenheit 
-  // included in celsiusTracker because I think it's more efficient
-public static double celsiusToFahrenheit(double celsius){
-  double fahrenheit;
-  fahrenheit = (9.0 / 5) * celsius + 32;
-  return fahrenheit;
-}
-  */
-
-/*
-// Convert from Fahrenheit to Celsius 
-// included in fahrenheitTracker because I think it's more efficient
-public static double fahrenheitToCelsius(double fahrenheit){
-  double c;
-  c = (5.0 / 9) * (fahrenheit - 32);
-  return c;
-}
-*/
 
 public static double celsiusTracker(double c){
   // part of 6.8
@@ -40,10 +19,10 @@ public static double celsiusTracker(double c){
     
     // formular to calculate f depending on c
     f = (9.0 / 5) * c + 32;
-    System.out.printf( "%.1f", f);
+    System.out.intf( "%.1f", f);
     System.out.println(""); 
   } while (c > 31.0); 
-  return c; // requires return statement
+  return c; // do requires return statement
 }
 
 public static double fahrenheitTracker(double f){
@@ -91,12 +70,10 @@ public static void bubbleSort(double[] array){
   for (int k = 1; k < array.length; k++) {
     nextPass = false;
     for (int i = 0; i < array.length - k; i++) {
-      
-      if (array[i] > array[i + 1]){
-        
+      if (array[i] > array[i + 1]){ 
         temp = array[i];
-			  array[i] = array[i + 1];
-			  array[i + 1] = temp;
+        array[i] = array[i + 1];
+        array[i + 1] = temp;
         nextPass = true;
         // temp saves the number that gets overwritten so no data is lost
         }
